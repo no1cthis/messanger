@@ -1,0 +1,32 @@
+@import '../../../scss/var.scss';
+.wrapper{
+    display: flex;
+    position: relative;
+    max-width: 60%;
+    width:  fit-content !important;
+    overflow-wrap: normal;
+    overflow: hidden;
+    min-height: 40px;
+    padding: 10px 30px;
+    margin-right: 10px;
+    width: auto;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: auto;
+    background-color: $secondary-color;
+    color:$primary-color;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+.text{
+    display: flex;
+    width: 100%;
+}
+.readed{
+    position: absolute;
+    bottom: 2px;
+    right: 5px;
+    font-size: 10px;
+    color:black
+}

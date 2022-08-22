@@ -1,0 +1,44 @@
+//COLORS START
+$primary-color:             rgb(24,24,24);
+$secondary-color:           rgba(255, 255, 255, 0.87);
+$background-color:          #F8F8F8;
+$black-color:               rgb(24,24,24);
+$white-color:               rgba(255, 255, 255, 0.05);
+$error-color:               #CB3D40;
+//COLORS END
+
+//BUTTON COLORS START
+$button-color:              rgb(3, 1, 36);
+$button-disabled-color:     #B4B4B4;
+$button-hover-color:        wheat;
+//BUTTON COLORS END
+
+//INPUT COLORS START
+$input-border-color:        #D0CFCF;
+$helper-text-color:         #7E7E7E;
+//INPUT COLORS END
+
+//FONTS START
+@mixin Text-font {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+@mixin Heading-font {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+}
+@mixin Helper-text-font{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: $helper-text-color
+}
+//FONTS END

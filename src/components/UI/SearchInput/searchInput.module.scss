@@ -1,0 +1,34 @@
+@import '../../../scss/var.scss';
+@import '../../../scss/border.scss';
+@import '../../../scss/button.scss';
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input{
+    @include Text-font;
+    @include border;
+    width: 80%;
+    height: 30px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    
+    
+    &:focus{
+        outline: 1px solid $secondary-color;
+    }
+}
+.button{
+    @include button;
+    border-radius: 0;
+    margin-left: 10px;
+}
+
+
+

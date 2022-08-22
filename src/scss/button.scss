@@ -1,0 +1,20 @@
+@import './var.scss';
+@mixin button{
+    
+    padding: 10px 30px;
+    min-width: 90px;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0px;
+    color: $secondary-color;
+    background-color: $primary-color;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover{
+        color:$primary-color;
+        background-color: $secondary-color;
+        transform: scale(1.05);
+    }
+}

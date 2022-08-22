@@ -1,0 +1,31 @@
+@import '../../scss/button.scss';
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 348px;
+    position: relative;
+}
+.button{
+    @include button
+}
+.error{
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    text-align: center;
+    left: 0;
+    transform: translateX(0);
+    transform: translateY(100%);
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+}
+
+

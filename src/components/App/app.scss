@@ -1,0 +1,23 @@
+@import '../../scss/var.scss';
+html{
+    background-image: url('../../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:#fff; 
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: $primary-color
+    ;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: $secondary-color
+  }
